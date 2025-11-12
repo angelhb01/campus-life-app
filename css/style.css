@@ -9,3 +9,12 @@
 .footer {
     margin-top: 15rem;
 }
+
+.events-container {
+    min-height: 15rem;
+    max-height: 35rem;
+}
+
+.event {
+    min-height: 15rem;
+}
