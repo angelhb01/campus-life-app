@@ -18,3 +18,7 @@
 .event {
     min-height: 15rem;
 }
+.dining-container {
+    min-height: 15rem;
+    max-height: 35rem;
+}
