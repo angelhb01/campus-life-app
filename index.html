@@ -8,33 +8,48 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <nav class="navbar bg-primary px-5 text-white" style="height: 4rem;">
+
+    <!--- Navigation bar outside the container -->
+    <nav class="navbar bg-dark px-5 text-white" style="height: 4rem;">
         <a class="navbar-brand text-white" href="./index.html">Campus Super App</a>
         <a class="nav-link" href="./about.html">About us</a>
     </nav>
 
+    <!--- Header outside the container  -->
+    <header class="home align-items-center mb-sm-3 mb-5">
+        <h1 class="header-text ps-5 bg-warning h-100 d-flex align-items-center">
+            Home
+        </h1>
+    </header>
+
+    <!--- Main content bootstrap container  -->
     <div class="main-content container">
         <main>
-            <h1 class="home row text-white text bg-danger align-items-center ps-4 mb-sm-3 mb-5">
-                Home
-            </h1>
-            <div class="content row gap-4 bg-danger">
-                <a href="./events.html" class="col d-flex bg-primary align-items-center justify-content-center text-decoration-none text-white">
-                    <h3 class="text-center">Events</h3>
+
+            <!--- A row within the container which has the columns: events & dining  -->
+            <div class="content row gap-4">
+                <a href="./events.html" class="shadow col text-decoration-none text-dark p-0">
+                    <button id="events-card" class="w-100 h-100 d-flex justify-content-center align-items-center rounded">
+                        <h1 class="text-center position-absolute">Events</h1>
+                    </button>
                 </a>
 
-                <a href="./dining.html" class="col d-flex bg-primary align-items-center justify-content-center text-decoration-none text-white">
-                    <h3 class="text-center">Dining Information</h3>
+                <a href="./dining.html" class="shadow col text-decoration-none text-dark p-0 text-center">
+                    <button id="dining-card" class="w-100 h-100 d-flex justify-content-center align-items-center rounded">
+                        <h1 class="text-center position-absolute">Dining</h1>
+                    </button>
                 </a>
+
             </div>
         </main>
     </div>
 
+    <!--- Footer outside the container  -->
     <footer class="footer py-5 bg-light">
         <div class="container text-center">
             <span class="text-muted">
                 <h2>Campus Super App</h2>
-                <p>&copy; Copyright. All rights reserved</p>
+                <p>&copy; 2025 Super App. All rights reserved</p>
             </span>
         </div>
     </footer>
