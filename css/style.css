@@ -1,5 +1,28 @@
-.home {
+.home, .events, .dining, .about {
     height: 12rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.486);
+    background-blend-mode: lighten;
+}
+.home {
+    background-image: url('../images/campus.jpeg');
+}
+.header-text {
+    width: 30%;
+    padding-right: 15px;
+    min-width: 15rem;
+    border-radius: 0px 20rem 20rem 0px;
+}
+.events {
+    background-image: url('../images/college-event.png');
+}
+.dining {
+    background-image: url('../images/dining.png');
+}
+.about {
+    background-image: url('../images/campus.jpeg');
 }
 
 .content {
@@ -31,6 +54,7 @@
 .image img {
     width: 100%;
     height: 80%;
+    border-radius: 2rem;
 }
 
 @media (max-width: 767px) {
@@ -47,10 +71,18 @@
         width: 85%;
     }
     .about-info {
-        height: 60%;
+        height: 50%;
     }
     .home{
         height: 8rem;
     }
-
+    .events{
+        height: 8rem;
+    }
+    .dining{
+        height: 8rem;
+    }
+    .about{
+        height: 8rem;
+    }
 }
