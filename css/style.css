@@ -34,17 +34,22 @@
 }
 
 .events-container {
-    min-height: 15rem;
-    max-height: 35rem;
+    max-height: 30rem;
 }
 
 .event {
-    min-height: 15rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .dining-container {
     min-height: 15rem;
     max-height: 35rem;
+}
+.food-image {
+    height: 15rem;
+    width: 10rem;
 }
 
 .about-container {
